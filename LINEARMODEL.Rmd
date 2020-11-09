@@ -41,9 +41,12 @@ basicNN <- ggplot(dataF,aes(y=SIMS,x=GRIP))
 basicNN + geom_point()+ geom_smooth(method=lm)
 ```
 
+```{r}
+model.1 <- lm(SIMS~ARM,data=dataF)
+summary.lm(model.1)
+```
 
-
-
+This particular model about 47% of the variation more then the mean model did. The Adjusted R squared is 0.467
 
 
 
