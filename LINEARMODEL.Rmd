@@ -68,7 +68,7 @@ predict.lm(model.2,new)
 predict(model.2,new,interval="prediction")
 ```
 
-The model for ARM is a independent model and is lower then model.1 and
+The model for ARM is a independent model and is lower then model.1 by 20% at 0.5361543
 
 
 
@@ -90,17 +90,7 @@ In this model.3 the Adjusted R square is 0.5358, Which makes model.3 the best mo
 anova(model.1,model.3)
 ```
 
-
-
-In this model.3 the Adjusted R square is 0.5358, Which makes model.3 the best model out of all three models. 
-
-
-
-
-
-
-
-
+This model of all three SIMS, GRIP, AND ARM are less at 217.88 then model 2 is at 188.43 meaning the ARM alone is highest model. 
 
 
 
